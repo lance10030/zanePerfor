@@ -19,9 +19,9 @@ module.exports = () => {
 
     // 线上环境此处替换为项目根域名 例如:blog.seosiwei.com (这里不需要填写http|https和斜杠等字符)
     // 用于安全校验和回调域名根路径 开发路径域名
-    config.host = '127.0.0.1';
+    config.host = '106.14.162.86';
 
-    config.port = 7001;
+    config.port = 3000;
 
     config.origin = `http://${config.host}:${config.port}`;
 
